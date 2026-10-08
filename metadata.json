@@ -1,0 +1,6 @@
+{
+  "name": "AgentI — Private On-Premise AI for Regulated Irish Firms",
+  "description": "AgentI supplies and installs pre-configured, on-premise AI hardware appliances for Irish solicitors, brokers, accountants, and medical clinics. Your client data never leaves your office network.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

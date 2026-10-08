@@ -157,6 +157,7 @@ ${formData.message || 'We would like to arrange an initial discovery discussion 
                     id="firmName"
                     type="text"
                     required
+                    autoComplete="organization"
                     value={formData.firmName}
                     onChange={(e) => setFormData({ ...formData, firmName: e.target.value })}
                     placeholder="e.g. O'Connor & Associates Financial"
@@ -172,6 +173,7 @@ ${formData.message || 'We would like to arrange an initial discovery discussion 
                     id="name"
                     type="text"
                     required
+                    autoComplete="name"
                     value={formData.name}
                     onChange={(e) => setFormData({ ...formData, name: e.target.value })}
                     placeholder="e.g. Ciara Kelly"
@@ -188,6 +190,7 @@ ${formData.message || 'We would like to arrange an initial discovery discussion 
                   <input
                     id="role"
                     type="text"
+                    autoComplete="organization-title"
                     value={formData.role}
                     onChange={(e) => setFormData({ ...formData, role: e.target.value })}
                     placeholder="e.g. Managing Partner / Principal Broker"
